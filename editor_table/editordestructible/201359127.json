@@ -1,0 +1,268 @@
+{
+    "1": 1, 
+    "3": 180.0, 
+    "5": 1, 
+    "6": 0, 
+    "102": 0, 
+    "104": 500, 
+    "107": 0, 
+    "108": 100, 
+    "alive_height_box_data": "", 
+    "base_color_mod": 0, 
+    "base_tint_color": [
+        255, 
+        255, 
+        255, 
+        0.5
+    ], 
+    "body_size": 1.0, 
+    "collision_box": {
+        "__tuple__": true, 
+        "items": [
+            [
+                -16, 
+                16
+            ], 
+            [
+                -16, 
+                -16
+            ], 
+            [
+                16, 
+                -16
+            ], 
+            [
+                16, 
+                16
+            ]
+        ]
+    }, 
+    "collision_box_after_dead": {
+        "__tuple__": true, 
+        "items": [
+            [
+                -16, 
+                16
+            ], 
+            [
+                -16, 
+                -16
+            ], 
+            [
+                16, 
+                -16
+            ], 
+            [
+                16, 
+                16
+            ]
+        ]
+    }, 
+    "collision_height": "", 
+    "collision_height_after_dead": "", 
+    "collision_points_alive": {
+        "__tuple__": true, 
+        "items": [
+            [
+                -4, 
+                -5
+            ], 
+            [
+                5, 
+                6
+            ], 
+            [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                288, 
+                288, 
+                288, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            1.0
+        ]
+    }, 
+    "collision_points_dead": {
+        "__tuple__": true, 
+        "items": [
+            [
+                -4, 
+                -5
+            ], 
+            [
+                5, 
+                6
+            ], 
+            0, 
+            1.0
+        ]
+    }, 
+    "dead_height_box_data": "", 
+    "default_rate": 0.0, 
+    "desc": -21926096, 
+    "description": -21926096, 
+    "destroy_delay": 5, 
+    "destroy_on_die": false, 
+    "die_effect_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "die_on_source_run_out": false, 
+    "effect_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "fresnel_color": [
+        255, 
+        0, 
+        0, 
+        1
+    ], 
+    "fresnel_emissive_color_strength": 0, 
+    "fresnel_exp": 1, 
+    "hp_max": 500, 
+    "icon": 100000, 
+    "is_ability_target": true, 
+    "is_attacked": true, 
+    "is_collected": true, 
+    "is_selected": false, 
+    "key": 201359127, 
+    "kv": {}, 
+    "material_alpha": 0, 
+    "material_change": 0, 
+    "material_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255
+        ]
+    }, 
+    "material_color_intensity": 0, 
+    "mini_map_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255
+        ]
+    }, 
+    "model": 200541, 
+    "model_opacity": 1.0, 
+    "name": 1122264013, 
+    "passable": false, 
+    "receive_decal": false, 
+    "reward_official_res_1": 0.0, 
+    "show_on_mini_map": true, 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "source_desc": 59269999, 
+    "source_item": 0, 
+    "source_nums_init": 0, 
+    "source_nums_max": 10000, 
+    "source_player_prop": "official_res_1", 
+    "source_refresh_count": 0, 
+    "source_refresh_interval": 1.0, 
+    "source_type": 1, 
+    "suffix": "", 
+    "tags": [], 
+    "uid": "201359127", 
+    "use_base_tint_color": false, 
+    "use_fresnel": false, 
+    "use_physics": false
+}

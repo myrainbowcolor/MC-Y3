@@ -1,0 +1,181 @@
+{
+    "group": [], 
+    "key": -1, 
+    "key_order": {
+        "--2DsP3REe2CEwD-IaiCSg": 18, 
+        "BxQW8P3SEe22JQD-IaiCSi": 19, 
+        "xByI8P3REe28YAD-IaiCSs": 2, 
+        "ypbcMP3REe2E+AD-IaiCSg": 17
+    }, 
+    "name": "trigger", 
+    "sub_trigger": {
+        "0": {
+            "__tuple__": true, 
+            "items": [
+                1929433089, 
+                "WADS\u4e07\u5411\u79fb\u52a8-\u7b2c\u4e09\u4eba\u79f0"
+            ]
+        }, 
+        "1": {
+            "__tuple__": true, 
+            "items": [
+                1694552066, 
+                "\u6444\u50cf\u673a\u6a21\u5f0f-\u7b2c\u4e09\u4eba\u79f0"
+            ]
+        }, 
+        "3": {
+            "__tuple__": true, 
+            "items": [
+                1507119111, 
+                "down"
+            ]
+        }, 
+        "4": {
+            "__tuple__": true, 
+            "items": [
+                353841160, 
+                "up"
+            ]
+        }, 
+        "5": {
+            "__tuple__": true, 
+            "items": [
+                345325581, 
+                " WADS\u4e07\u5411\u79fb\u52a8-\u7b2c\u4e00\u4eba\u79f0"
+            ]
+        }, 
+        "6": {
+            "__tuple__": true, 
+            "items": [
+                1704280078, 
+                "\u6444\u50cf\u673a\u6a21\u5f0f-\u7b2c\u4e00\u4eba\u79f0"
+            ]
+        }, 
+        "7": {
+            "__tuple__": true, 
+            "items": [
+                646156309, 
+                "\u8d44\u6e90\u5237\u65b0\u529f\u80fd"
+            ]
+        }, 
+        "8": {
+            "__tuple__": true, 
+            "items": [
+                1931247639, 
+                "\u79bb\u5f00\u8d44\u6e90\u70b9\u533a\u57df\u4e8b\u4ef6"
+            ]
+        }, 
+        "9": {
+            "__tuple__": true, 
+            "items": [
+                186691610, 
+                "\u65b0\u5546\u5e97\u529f\u80fd"
+            ]
+        }, 
+        "10": {
+            "__tuple__": true, 
+            "items": [
+                858009627, 
+                "\u6309\u94ae\u5173\u95ed\u5546\u5e97"
+            ]
+        }, 
+        "11": {
+            "__tuple__": true, 
+            "items": [
+                204206108, 
+                "\u5f00\u5173\u5546\u5e97"
+            ]
+        }, 
+        "12": {
+            "__tuple__": true, 
+            "items": [
+                376664093, 
+                "\u6309\u952e\u5173\u95ed\u5546\u5e97"
+            ]
+        }, 
+        "13": {
+            "__tuple__": true, 
+            "items": [
+                1095921697, 
+                "\u8d2d\u4e70\u4e8b\u4ef6_1"
+            ]
+        }, 
+        "14": {
+            "__tuple__": true, 
+            "items": [
+                1515364385, 
+                "\u8d2d\u4e70\u4e8b\u4ef6_2"
+            ]
+        }, 
+        "15": {
+            "__tuple__": true, 
+            "items": [
+                810733601, 
+                "\u8d2d\u4e70\u4e8b\u4ef6_3"
+            ]
+        }, 
+        "16": {
+            "__tuple__": true, 
+            "items": [
+                1716711457, 
+                "\u8d2d\u4e70\u4e8b\u4ef6_4"
+            ]
+        }, 
+        "20": {
+            "__tuple__": true, 
+            "items": [
+                1961693213, 
+                "\u73a9\u5bb6\u952e\u76d8\u6309\u4e0b\u4e8b\u4ef6"
+            ]
+        }, 
+        "21": {
+            "__tuple__": true, 
+            "items": [
+                453849118, 
+                "GM\u952e\u76d8\u6309\u4e0b\u4e8b\u4ef6"
+            ]
+        }, 
+        "22": {
+            "__tuple__": true, 
+            "items": [
+                1314197520, 
+                "\u5347"
+            ]
+        }, 
+        "23": {
+            "__tuple__": true, 
+            "items": [
+                1767415825, 
+                "\u964d"
+            ]
+        }, 
+        "24": {
+            "__tuple__": true, 
+            "items": [
+                2003394590, 
+                "\u964d_2"
+            ]
+        }, 
+        "25": {
+            "__tuple__": true, 
+            "items": [
+                627662879, 
+                "\u5347_2"
+            ]
+        }, 
+        "26": {
+            "__tuple__": true, 
+            "items": [
+                370577438, 
+                "\u5168\u56fe\u8bed\u97f3"
+            ]
+        }, 
+        "27": {
+            "__tuple__": true, 
+            "items": [
+                907448351, 
+                "\u5b50\u89e6\u53d1\u5668"
+            ]
+        }
+    }
+}

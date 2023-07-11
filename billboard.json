@@ -1,0 +1,211 @@
+{
+    "134220464": {
+        "name": "\u81ea\u5b9a\u4e49\u8840\u6761", 
+        "node": {
+            "image": [
+                {
+                    "bind_attribute": "hp", 
+                    "calibration_png": {
+                        "__tuple__": true, 
+                        "items": [
+                            "ui/RL_Blood-bar_03", 
+                            [
+                                122, 
+                                14
+                            ], 
+                            134222
+                        ]
+                    }, 
+                    "distinguish_foe": true, 
+                    "enemy_blend_path": {
+                        "__tuple__": true, 
+                        "items": [
+                            "ui/RL_Blood-bar_03", 
+                            [
+                                122, 
+                                14
+                            ], 
+                            134222
+                        ]
+                    }, 
+                    "enemy_blood_bar": {
+                        "__tuple__": true, 
+                        "items": [
+                            "ui/BloodBar_Unit_red", 
+                            [
+                                90, 
+                                6
+                            ], 
+                            107131
+                        ]
+                    }, 
+                    "friend_blend_path": {
+                        "__tuple__": true, 
+                        "items": [
+                            "ui/RL_Blood-bar_03", 
+                            [
+                                122, 
+                                14
+                            ], 
+                            134222
+                        ]
+                    }, 
+                    "friend_blood_bar": {
+                        "__tuple__": true, 
+                        "items": [
+                            "ui/Tem_MB_yingxionghp", 
+                            [
+                                46, 
+                                4
+                            ], 
+                            133828
+                        ]
+                    }, 
+                    "hit_points": 100, 
+                    "name": "\u8840\u6761", 
+                    "need_decline_effect": false, 
+                    "node_id": 2095246486, 
+                    "node_type": "picture_group", 
+                    "offset": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "player_blend_path": {
+                        "__tuple__": true, 
+                        "items": [
+                            "ui/RL_Blood-bar_03", 
+                            [
+                                122, 
+                                14
+                            ], 
+                            134222
+                        ]
+                    }, 
+                    "player_blood_bar": {
+                        "__tuple__": true, 
+                        "items": [
+                            "ui/BloodBar_Unit_red", 
+                            [
+                                90, 
+                                6
+                            ], 
+                            107131
+                        ]
+                    }, 
+                    "scale": {
+                        "__tuple__": true, 
+                        "items": [
+                            3.0, 
+                            1.0
+                        ]
+                    }, 
+                    "shield_com": {
+                        "__tuple__": true, 
+                        "items": [
+                            "ui/RL_Blood-bar_03", 
+                            [
+                                122, 
+                                14
+                            ], 
+                            134222
+                        ]
+                    }, 
+                    "shield_mag": {
+                        "__tuple__": true, 
+                        "items": [
+                            "ui/RL_Blood-bar_03", 
+                            [
+                                122, 
+                                14
+                            ], 
+                            134222
+                        ]
+                    }, 
+                    "shield_phy": {
+                        "__tuple__": true, 
+                        "items": [
+                            "ui/RL_Blood-bar_03", 
+                            [
+                                122, 
+                                14
+                            ], 
+                            134222
+                        ]
+                    }, 
+                    "show_calibration": false, 
+                    "show_type": "follow_object", 
+                    "use_shield": false
+                }
+            ], 
+            "text": [
+                {
+                    "bind_attribute": "name", 
+                    "distinguish_foe": false, 
+                    "foe_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            1, 
+                            0.5, 
+                            0.5, 
+                            1
+                        ]
+                    }, 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "HKYuanW7", 
+                            5, 
+                            4000008
+                        ]
+                    }, 
+                    "friend_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            1, 
+                            0.5, 
+                            0.5, 
+                            1
+                        ]
+                    }, 
+                    "hover_show": false, 
+                    "name": "\u8840\u91cf", 
+                    "node_id": 1180632751, 
+                    "node_type": "text", 
+                    "offset": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "player_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            1.0, 
+                            1.0, 
+                            1.0, 
+                            1.0
+                        ]
+                    }, 
+                    "show_type": "name", 
+                    "stroke_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            1, 
+                            0.5, 
+                            0.5, 
+                            1
+                        ]
+                    }, 
+                    "stroke_width": 1, 
+                    "text": "", 
+                    "use_stroke": false, 
+                    "visible": true
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "design_resolution": {
+        "__tuple__": true, 
+        "items": [
+            1920, 
+            1080
+        ]
+    }, 
+    "design_resolution_index": 0, 
+    "first_init_ui_editor": true, 
+    "prefab_data": {
+        "f4c54d35-95eb-4066-bce2-4dc983d71a23": {
+            "data": {
+                "children": [], 
+                "comp_anims": [], 
+                "custom_kv": {}, 
+                "event_list": [], 
+                "name": "layout_1", 
+                "pos": {
+                    "__tuple__": true, 
+                    "items": [
+                        960.0, 
+                        540.0
+                    ]
+                }, 
+                "prefab_key": "f4c54d35-95eb-4066-bce2-4dc983d71a23", 
+                "type": 7
+            }, 
+            "name": "\u65b0\u5efa\u81ea\u5b9a\u4e49\u6a21\u5757"
+        }
+    }, 
+    "ui_template_id": 2, 
+    "uid_version": true
+}

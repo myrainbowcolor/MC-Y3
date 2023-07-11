@@ -1,0 +1,141 @@
+<Root>
+	<matrixlayout>column major</matrixlayout>
+	<system>character</system>
+	<mainroot>xiong2</mainroot>
+	<node>
+		<identifier>Scene Root</identifier>
+		<transform>
+			<row0>1 0 0</row0>
+			<row1>0 1 0</row1>
+			<row2>0 0 1</row2>
+			<row3>0 0 0</row3>
+		</transform>
+		<node>
+			<identifier>xiong2</identifier>
+			<transform>
+				<row0>-0.019228 -0.999815 0</row0>
+				<row1>0.000002 0 -1</row1>
+				<row2>0.999815 -0.019228 0.000002</row2>
+				<row3>-0.015232 3.262777 0.069466</row3>
+			</transform>
+			<node>
+				<identifier>xiong1</identifier>
+				<transform>
+					<row0>0.999815 0 0.019228</row0>
+					<row1>0 1 -0.000002</row1>
+					<row2>-0.019228 0.000002 0.999815</row2>
+					<row3>-1.305238 0 0</row3>
+				</transform>
+				<node>
+					<identifier>youshou1</identifier>
+					<transform>
+						<row0>-0.758794 0.651217 -0.012172</row0>
+						<row1>0.651133 0.758892 0.010448</row1>
+						<row2>0.016041 0.000002 -0.999871</row2>
+						<row3>-1.832015 0 1.530862</row3>
+					</transform>
+					<node>
+						<identifier>youshou2</identifier>
+						<transform>
+							<row0>0.999771 0 -0.021378</row0>
+							<row1>0 1 0.000002</row1>
+							<row2>0.021378 -0.000002 0.999771</row2>
+							<row3>-1.656533 0 0</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>zuoshou1</identifier>
+					<transform>
+						<row0>-0.789244 -0.61408 0</row0>
+						<row1>-0.61408 0.789244 0</row1>
+						<row2>-0.000001 0 -1</row2>
+						<row3>-1.832015 0 -1.555958</row3>
+					</transform>
+					<node>
+						<identifier>zuoshou2</identifier>
+						<transform>
+							<row0>0.999971 0 0.007677</row0>
+							<row1>0 1 0</row1>
+							<row2>-0.007677 0 0.999971</row2>
+							<row3>-1.706535 0 0</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>tou</identifier>
+					<transform>
+						<row0>0.999952 0 0.009798</row0>
+						<row1>0 1 0</row1>
+						<row2>-0.009798 0 0.999952</row2>
+						<row3>-1.73163 0 -0.000012</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>youtui1</identifier>
+				<transform>
+					<row0>-0.84808 -0.529833 -0.006091</row0>
+					<row1>-0.529819 0.848102 -0.003814</row1>
+					<row2>0.007186 -0.000008 -0.999974</row2>
+					<row3>0.118988 0.000001 0.551096</row3>
+				</transform>
+				<node>
+					<identifier>youtui2</identifier>
+					<transform>
+						<row0>0.873933 -0.485951 -0.009643</row0>
+						<row1>0.486005 0.873946 0.004154</row1>
+						<row2>0.006408 -0.008317 0.999945</row2>
+						<row3>-1.562303 0 0.000015</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>zuotui1</identifier>
+				<transform>
+					<row0>-0.72967 0.507368 -0.019603</row0>
+					<row1>0.570533 0.821122 0.01582</row1>
+					<row2>0.027137 0.000404 -0.999627</row2>
+					<row3>0.0347 -0.000001 -0.539565</row3>
+				</transform>
+				<node>
+					<identifier>zuotui2</identifier>
+					<transform>
+						<row0>1.183191 0.000002 -0.010612</row0>
+						<row1>0.000014 0.999999 0.001453</row1>
+						<row2>0.011349 -0.001453 0.999941</row2>
+						<row3>-1.894794 0 0.00001</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</node>
+	<anim>
+		<name>attack1</name>
+		<res>/attack1.anim</res>
+		<durationMS>667</durationMS>
+		<_ModifyTime>1685772242</_ModifyTime>
+	</anim>
+	<anim>
+		<name>die</name>
+		<res>/die.anim</res>
+		<durationMS>701</durationMS>
+		<_ModifyTime>1685772231</_ModifyTime>
+	</anim>
+	<anim>
+		<name>idle1</name>
+		<res>/idle1.anim</res>
+		<durationMS>167</durationMS>
+		<_ModifyTime>1685772225</_ModifyTime>
+	</anim>
+	<anim>
+		<name>walk</name>
+		<res>/walk.anim</res>
+		<durationMS>1667</durationMS>
+		<_ModifyTime>1685772234</_ModifyTime>
+	</anim>
+	<StaticBoundingBox>
+		<min>-1.546094 1.808318 -0.978482</min>
+		<max>1.56089 6.399789 1.148228</max>
+	</StaticBoundingBox>
+</Root>

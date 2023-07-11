@@ -1,0 +1,201 @@
+{
+    "local_variable": {
+        "1593368577": {
+            "variable_dict": {
+                "UNIT_ENTITY": {}
+            }, 
+            "variable_length_dict": {}
+        }
+    }, 
+    "trigger_dict": {
+        "524750850": {
+            "action": [
+                {
+                    "action_type": "DELETE_SFX_ENTITY", 
+                    "args_list": [
+                        {
+                            "arg_type": 100148, 
+                            "args_list": [
+                                [
+                                    "SFX_ENTITY", 
+                                    "f", 
+                                    "actor"
+                                ], 
+                                null
+                            ], 
+                            "sub_type": 4
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 5247508500009, 
+                    "enable": true, 
+                    "op_arg": [
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        false
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 5247508500004, 
+                    "enable": true, 
+                    "event_type": "UNIT_REMOVE"
+                }
+            ], 
+            "group_id": 134257738, 
+            "p_trigger_id": null, 
+            "trigger_id": 524750850, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_2", 
+            "valid": true
+        }, 
+        "1593368577": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100148, 
+                            "args_list": [
+                                [
+                                    "SFX_ENTITY", 
+                                    "f", 
+                                    "actor"
+                                ], 
+                                null
+                            ], 
+                            "sub_type": 4
+                        }, 
+                        {
+                            "arg_type": 100148, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100066, 
+                                    "args_list": [
+                                        102773
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_UNIT"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "root"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        0.3
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        4.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                true, 
+                                true, 
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "CREATE_SFX_ON_UNIT"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 15933685770011, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 15933685770002, 
+                    "enable": true, 
+                    "event_type": "UNIT_BORN"
+                }
+            ], 
+            "group_id": 134257738, 
+            "p_trigger_id": null, 
+            "trigger_id": 1593368577, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                [
+                    524750850, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668_2"
+                ], 
+                [
+                    1593368577, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
+                ]
+            ], 
+            "key": 134257738, 
+            "name": "134257738"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "NEW_TIMER": {}, 
+        "SFX_ENTITY": {
+            "f": 0
+        }, 
+        "UNIT_ENTITY": {}
+    }, 
+    "variable_group_info": [
+        [
+            "f", 
+            "(f)"
+        ]
+    ], 
+    "variable_length_dict": {
+        "f": 0
+    }
+}

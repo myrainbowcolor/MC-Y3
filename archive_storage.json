@@ -1,0 +1,30 @@
+{
+    "EGNE": {
+        "role_id": 1, 
+        "archive": {
+            "1": {
+                "data_type": 4, 
+                "data_value": "{\n[\"1\"]=\"-6062.00|-6062.00|300|134273901\",\n}"
+            }, 
+            "2": {
+                "data_type": 4, 
+                "data_value": "{\n[\"campOneSpawn\"]=\"\",\n[\"unitHeight\"]=Fix32(580.0),\n[\"campTwoSpawn\"]=\"\",\n[\"point\"]=\"\",\n[\"unitWidth\"]=Fix32(200.0),\n}"
+            }
+        }, 
+        "platform_prop": {}
+    }, 
+    "test_account1": {
+        "role_id": 2, 
+        "archive": {
+            "1": {
+                "data_type": 4, 
+                "data_value": "{\n[\"1\"]=\"-6062.00|-6062.00|300|134273901\",\n}"
+            }, 
+            "2": {
+                "data_type": 4, 
+                "data_value": "{\n[\"campOneSpawn\"]=\"\",\n[\"unitHeight\"]=Fix32(580.0),\n[\"campTwoSpawn\"]=\"\",\n[\"point\"]=\"\",\n[\"unitWidth\"]=Fix32(200.0),\n}"
+            }
+        }, 
+        "platform_prop": {}
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "$code_camp_referee": {
+        "key": "$code_camp_referee", 
+        "value": "$code_camp_referee"
+    }, 
+    "$faction 1": {
+        "key": "$faction 1", 
+        "value": "Faction 1"
+    }, 
+    "$faction 2": {
+        "key": "$faction 2", 
+        "value": "Faction 2"
+    }, 
+    "$faction 9999": {
+        "key": "$faction 9999", 
+        "value": "Neutral"
+    }, 
+    "$player 1": {
+        "key": "$player 1", 
+        "value": "Player 1"
+    }, 
+    "$player 10": {
+        "key": "$player 10", 
+        "value": "Player 10"
+    }, 
+    "$player 11": {
+        "key": "$player 11", 
+        "value": "Player 11"
+    }, 
+    "$player 12": {
+        "key": "$player 12", 
+        "value": "Player 12"
+    }, 
+    "$player 2": {
+        "key": "$player 2", 
+        "value": "Player 2"
+    }, 
+    "$player 3": {
+        "key": "$player 3", 
+        "value": "Player 3"
+    }, 
+    "$player 31": {
+        "key": "$player 31", 
+        "value": "Neutral Hostile"
+    }, 
+    "$player 32": {
+        "key": "$player 32", 
+        "value": "Neutral Friendly"
+    }, 
+    "$player 4": {
+        "key": "$player 4", 
+        "value": "Player 4"
+    }, 
+    "$player 5": {
+        "key": "$player 5", 
+        "value": "Player 5"
+    }, 
+    "$player 6": {
+        "key": "$player 6", 
+        "value": "Player 6"
+    }, 
+    "$player 7": {
+        "key": "$player 7", 
+        "value": "Player 7"
+    }, 
+    "$player 8": {
+        "key": "$player 8", 
+        "value": "Player 8"
+    }, 
+    "$player 9": {
+        "key": "$player 9", 
+        "value": "Player 9"
+    }
+}

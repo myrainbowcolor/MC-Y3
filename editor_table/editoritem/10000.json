@@ -1,0 +1,512 @@
+{
+    "agility": 20, 
+    "attached_ability": 0, 
+    "attached_agility": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_attack_interval": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_attack_mag": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_attack_phy": {
+        "__tuple__": true, 
+        "items": [
+            1.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_attack_range": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_attack_speed": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_buffs": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "attached_cd_reduce": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_critical_chance": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_critical_dmg": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_custom_1": 0, 
+    "attached_defense_mag": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_defense_phy": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_dmg_reduction": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_dodge_rate": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_extra_dmg": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_gainvalue": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_heal_effect": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_healing_effect": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_hit_rate": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_hp_max": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_hp_rec": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_intelligence": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_mp_max": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_mp_rec": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_ori_speed": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_passive_abilities": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "attached_pene_mag": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_pene_mag_ratio": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_pene_phy": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_pene_phy_ratio": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_resilience": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_strength": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vampire_mag": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vampire_phy": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_night": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_rng": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_sector_angle_day": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_sector_angle_night": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_sector_night": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_sector_rng": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_true": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attack_mag": 0.0, 
+    "attack_phy": 1.0, 
+    "attack_speed": 0.0, 
+    "auto_use": false, 
+    "body_size": 1.0, 
+    "buy_res_list": {
+        "__tuple__": true, 
+        "items": [
+            [
+                "official_res_1", 
+                100
+            ]
+        ]
+    }, 
+    "can_sell": true, 
+    "cd_reduce": 0.0, 
+    "cd_type": "", 
+    "compose_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "compose_sfx": 100000, 
+    "critical_chance": 0.0, 
+    "critical_dmg": 0.0, 
+    "cur_charge": 0, 
+    "cur_stack": 1, 
+    "custom_1": 0, 
+    "defense_mag": 0.0, 
+    "defense_phy": 0.0, 
+    "delete_on_discard": false, 
+    "description": 182298749, 
+    "disable_overlapping": false, 
+    "discard_enable": true, 
+    "discard_when_dead": false, 
+    "dmg_reduction": 0.0, 
+    "dodge_rate": 0.0, 
+    "drop_stay_time": 999999.0, 
+    "effect_button": null, 
+    "effect_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "extra_dmg": 0.0, 
+    "fresnel_color": [
+        255, 
+        0, 
+        0, 
+        1
+    ], 
+    "fresnel_emissive_color_strength": 0, 
+    "fresnel_exp": 1, 
+    "gold_cost": 5, 
+    "heal_effect": 0.0, 
+    "hit_rate": 0.0, 
+    "hp_max": 0.0, 
+    "hp_rec": 0.0, 
+    "icon": 100880, 
+    "init_stock": 5, 
+    "intelligence": 20, 
+    "item_billboard_type": 0, 
+    "key": 10000, 
+    "kv": {}, 
+    "level": 1, 
+    "material_alpha": 1, 
+    "material_change": 0, 
+    "material_color": [
+        255, 
+        255, 
+        255
+    ], 
+    "material_color_intensity": 1, 
+    "max_stock": 5, 
+    "maximum_charging": 5, 
+    "maximum_stacking": 1, 
+    "model": 10022, 
+    "mp_max": 0.0, 
+    "mp_rec": 0.0, 
+    "name": 407785696, 
+    "non_zero_stacking": false, 
+    "pene_mag": 0.0, 
+    "pene_mag_ratio": 0.0, 
+    "pene_phy": 0.0, 
+    "pene_phy_ratio": 0.0, 
+    "precondition_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "refresh_interval": 122.0, 
+    "sale_enable": true, 
+    "sell_gold": 5, 
+    "sell_res_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "stack_type": 0, 
+    "start_rft": 15.0, 
+    "strength": 20, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "uid": "10000", 
+    "use_consume": 1, 
+    "use_fresnel": false
+}

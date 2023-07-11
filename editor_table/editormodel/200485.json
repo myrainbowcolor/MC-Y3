@@ -1,0 +1,114 @@
+{
+    "describe": 1862043256, 
+    "editor_res": false, 
+    "key": 200485, 
+    "map_name": "xiugai", 
+    "model_id": 502000, 
+    "name": 940471650, 
+    "offical_tags": {
+        "__tuple__": true, 
+        "items": [
+            "code_Realistic", 
+            "code_Magical", 
+            "code_Adult", 
+            "code_Hero", 
+            "code_Male", 
+            "code_Strong", 
+            "code_Warrior", 
+            "code_Spear", 
+            "code_Blue"
+        ]
+    }, 
+    "preview_icon": "UP1ModelPreview/200485", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "release_hide": false, 
+    "res_identify": "", 
+    "select_effect_scale": 0.01, 
+    "socket_info": {
+        "foot1": {
+            "__tuple__": true, 
+            "items": [
+                "foot1", 
+                "Bip001-L-Foot", 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }, 
+        "foot2": {
+            "__tuple__": true, 
+            "items": [
+                "foot2", 
+                "Bip001-R-Foot", 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }, 
+        "hand1": {
+            "__tuple__": true, 
+            "items": [
+                "hand1", 
+                "Bip001-L-Hand", 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }, 
+        "hand2": {
+            "__tuple__": true, 
+            "items": [
+                "hand2", 
+                "Bip001-R-Hand", 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }, 
+        "head": {
+            "__tuple__": true, 
+            "items": [
+                "head", 
+                "Bip001-Head", 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }, 
+        "hit_point": {
+            "__tuple__": true, 
+            "items": [
+                "hit_point", 
+                "Bip001-Pelvis", 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }, 
+        "root": {
+            "__tuple__": true, 
+            "items": [
+                "root", 
+                "Scene Root", 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }, 
+        "sound": {
+            "__tuple__": true, 
+            "items": [
+                "sound", 
+                "Bip001-Head", 
+                0.2, 
+                0.1, 
+                0.0
+            ]
+        }
+    }, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_200485"
+}

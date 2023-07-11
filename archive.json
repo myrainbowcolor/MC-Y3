@@ -1,0 +1,22 @@
+{
+    "archive_slots": {
+        "1": {
+            "billboard_max_item_num": 0, 
+            "billboard_sort_type": 0, 
+            "encrypt": false, 
+            "key": 1, 
+            "name": "store", 
+            "type": 4, 
+            "value": "store"
+        }, 
+        "2": {
+            "billboard_max_item_num": 0, 
+            "billboard_sort_type": 0, 
+            "encrypt": false, 
+            "key": 2, 
+            "name": "playerInfo", 
+            "type": 4, 
+            "value": "playerInfo"
+        }
+    }
+}

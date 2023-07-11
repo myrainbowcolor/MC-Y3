@@ -1,0 +1,113 @@
+{
+    "1": {
+        "anim_name": "\u5706\u5f62\u8fdb\u5ea6\u6761_1", 
+        "dt": [
+            {
+                "dt": [
+                    {
+                        "dt": {
+                            "0": {
+                                "val": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.1, 
+                                        0.1
+                                    ]
+                                }
+                            }, 
+                            "5": {
+                                "val": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.2, 
+                                        0.2
+                                    ]
+                                }
+                            }, 
+                            "10": {
+                                "val": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.3, 
+                                        0.3
+                                    ]
+                                }
+                            }, 
+                            "15": {
+                                "val": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.4, 
+                                        0.4
+                                    ]
+                                }
+                            }, 
+                            "20": {
+                                "val": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.5, 
+                                        0.5
+                                    ]
+                                }
+                            }, 
+                            "25": {
+                                "val": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.6, 
+                                        0.6
+                                    ]
+                                }
+                            }, 
+                            "30": {
+                                "val": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.7, 
+                                        0.7
+                                    ]
+                                }
+                            }, 
+                            "35": {
+                                "val": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.8, 
+                                        0.8
+                                    ]
+                                }
+                            }, 
+                            "40": {
+                                "val": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.9, 
+                                        0.9
+                                    ]
+                                }
+                            }, 
+                            "45": {
+                                "val": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        1.0, 
+                                        1.0
+                                    ]
+                                }
+                            }
+                        }, 
+                        "tp": 2
+                    }
+                ], 
+                "enabled": true, 
+                "name": "1b8e6d69-26cb-4c6f-9f64-22162dca9e4d"
+            }
+        ], 
+        "event_data": {}, 
+        "f_rt": 30, 
+        "group": "87afb549-89e7-4251-87f4-7aa62a6f769b", 
+        "lp": false, 
+        "max_frame": 100
+    }
+}

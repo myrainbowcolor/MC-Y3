@@ -1,0 +1,594 @@
+{
+    "local_variable": {
+        "186691610": {
+            "variable_dict": {
+                "FLOAT": {
+                    "buyCd": 0.0, 
+                    "price": 0.0
+                }, 
+                "PLAYER_GROUP": {
+                    "playerGroup": []
+                }, 
+                "STRING": {
+                    "curIteratorUiName": "", 
+                    "type": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "buyCd": 0, 
+                "curIteratorUiName": 0, 
+                "playerGroup": 0, 
+                "price": 0, 
+                "type": 0
+            }
+        }, 
+        "204206108": {
+            "variable_dict": {
+                "FLOAT": {
+                    "curDistance": 0.0, 
+                    "minDistance": 0.0
+                }, 
+                "UNIT_ENTITY": {
+                    "minUnit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "curDistance": 0, 
+                "minDistance": 0, 
+                "minUnit": 0
+            }
+        }, 
+        "256852002": {
+            "variable_dict": {
+                "TABLE": {}
+            }, 
+            "variable_length_dict": {}
+        }, 
+        "345325581": {
+            "variable_dict": {
+                "ANGLE": {
+                    "direction": 0.0
+                }, 
+                "AUDIO_KEY": {
+                    "\u811a\u6b65\u58f0": 0
+                }, 
+                "FLOAT": {
+                    "logicFram": 0.0, 
+                    "x": 0.0, 
+                    "y": 0.0
+                }, 
+                "NEW_TIMER": {
+                    "timer": -1
+                }, 
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }, 
+                "PLAYER_GROUP": {}, 
+                "POINT": {
+                    "aimPoint": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "SOUND_ENTITY": {
+                    "sound": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0, 
+                    "\u5355\u4f4d": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "aimPoint": 0, 
+                "direction": 0, 
+                "logicFram": 0, 
+                "sound": 0, 
+                "timer": 0, 
+                "unit": 0, 
+                "x": 0, 
+                "y": 0, 
+                "\u5355\u4f4d": 0, 
+                "\u73a9\u5bb6": 0, 
+                "\u811a\u6b65\u58f0": 0
+            }
+        }, 
+        "353841160": {
+            "variable_dict": {
+                "INTEGER": {}, 
+                "MODIFIER_ENTITY": {
+                    "effect": 0
+                }, 
+                "PROJECTILE_ENTITY": {}, 
+                "SFX_ENTITY": {}, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "effect": 0, 
+                "unit": 0
+            }
+        }, 
+        "429748238": {
+            "variable_dict": {
+                "DYNAMIC_TRIGGER_INSTANCE": {}, 
+                "INTEGER": {
+                    "index": 0
+                }, 
+                "STRING": {
+                    "key": ""
+                }, 
+                "TABLE": {
+                    "playerInfoTable": null, 
+                    "store": null
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "index": 0, 
+                "key": 0, 
+                "playerInfoTable": 0, 
+                "store": 0, 
+                "unit": 0
+            }
+        }, 
+        "453849118": {
+            "variable_dict": {
+                "MODIFIER_ENTITY": {
+                    "effect": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "effect": 0, 
+                "unit": 0
+            }
+        }, 
+        "584142854": {
+            "variable_dict": {
+                "INTEGER": {}, 
+                "MODIFIER": {
+                    "effectTypeArr": 0
+                }, 
+                "MODIFIER_ENTITY": {
+                    "effect": 0
+                }, 
+                "PROJECTILE": {}, 
+                "SFX_ENTITY": {}, 
+                "SFX_KEY": {}, 
+                "TABLE": {
+                    "UITable": null, 
+                    "UITable_1": null
+                }, 
+                "UI_COMP": {
+                    "UITemp": "", 
+                    "UITemp_1": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "UITable": 0, 
+                "UITable_1": 0, 
+                "UITemp": 0, 
+                "UITemp_1": 0, 
+                "effect": 0, 
+                "effectTypeArr": 10, 
+                "unit": 0
+            }
+        }, 
+        "646156309": {
+            "variable_dict": {
+                "FLOAT": {}, 
+                "PLAYER_GROUP": {
+                    "showUIPlayerGroup": []
+                }, 
+                "ROUND_AREA": {
+                    "areaTemp": 0
+                }, 
+                "SCENE_UI": {
+                    "sceneUi": null
+                }, 
+                "SFX_ENTITY": {
+                    "effect": 0
+                }, 
+                "SOUND_ENTITY": {
+                    "getSourceSound": 0, 
+                    "sourceRefreshSound": 0
+                }, 
+                "STRING": {
+                    "text": ""
+                }, 
+                "TABLE": {
+                    "areaArr": null
+                }, 
+                "UNIT_GROUP": {
+                    "showUIUnitGroup": []
+                }
+            }, 
+            "variable_length_dict": {
+                "areaArr": 0, 
+                "areaTemp": 0, 
+                "effect": 0, 
+                "getSourceSound": 0, 
+                "sceneUi": 0, 
+                "showUIPlayerGroup": 0, 
+                "showUIUnitGroup": 0, 
+                "sourceRefreshSound": 0, 
+                "text": 0
+            }
+        }, 
+        "810733601": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "timer": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "timer": 0
+            }
+        }, 
+        "939409423": {
+            "variable_dict": {
+                "PLAYER_GROUP": {}, 
+                "ROUND_AREA": {}, 
+                "TABLE": {}
+            }, 
+            "variable_length_dict": {}
+        }, 
+        "1095921697": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "timer": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "timer": 0
+            }
+        }, 
+        "1262247949": {
+            "variable_dict": {
+                "ABILITY": {
+                    "skill": null
+                }, 
+                "NEW_TIMER": {
+                    "UItipTimer": -1
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "UItipTimer": 0, 
+                "skill": 0, 
+                "unit": 0
+            }
+        }, 
+        "1507119111": {
+            "variable_dict": {
+                "INTEGER": {}, 
+                "MODIFIER_ENTITY": {
+                    "effect": 0
+                }, 
+                "PROJECTILE_ENTITY": {}, 
+                "SFX_ENTITY": {}, 
+                "SFX_KEY": {}, 
+                "TABLE": {}, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "effect": 0, 
+                "unit": 0
+            }
+        }, 
+        "1515364385": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "timer": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "timer": 0
+            }
+        }, 
+        "1660997635": {
+            "variable_dict": {
+                "DESTRUCTIBLE_ENTITY": {}, 
+                "FLOAT": {}, 
+                "INTEGER": {}, 
+                "ITEM_ENTITY": {
+                    "itemTemp": 0
+                }, 
+                "NEW_TIMER": {}, 
+                "STRING": {}, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "itemTemp": 0, 
+                "unit": 0
+            }
+        }, 
+        "1694552066": {
+            "variable_dict": {
+                "ANGLE": {
+                    "navigationDelta": 0.0, 
+                    "pitchDelta": 0.0
+                }, 
+                "BOOLEAN": {}, 
+                "FLOAT": {
+                    "conversionFractionX": 0.0, 
+                    "conversionFractionY": 0.0, 
+                    "curNavigationTemp": 0.0, 
+                    "curPitchTemp": 0.0, 
+                    "moveDeltaX": 0.0, 
+                    "moveDeltaY": 0.0, 
+                    "unitHeight": 0.0, 
+                    "\u6c34\u5e73\u7075\u654f\u5ea6": 0.0, 
+                    "\u7ad6\u76f4\u7075\u654f\u5ea6": 0.0
+                }, 
+                "NEW_TIMER": {
+                    "timer": -1
+                }, 
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }, 
+                "POINT": {
+                    "MousePointTemp": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "UNIT_ENTITY": {
+                    "\u5355\u4f4d": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "MousePointTemp": 0, 
+                "conversionFractionX": 0, 
+                "conversionFractionY": 0, 
+                "curNavigationTemp": 0, 
+                "curPitchTemp": 0, 
+                "moveDeltaX": 0, 
+                "moveDeltaY": 0, 
+                "navigationDelta": 0, 
+                "pitchDelta": 0, 
+                "timer": 0, 
+                "unitHeight": 0, 
+                "\u5355\u4f4d": 0, 
+                "\u6c34\u5e73\u7075\u654f\u5ea6": 0, 
+                "\u73a9\u5bb6": 0, 
+                "\u7ad6\u76f4\u7075\u654f\u5ea6": 0
+            }
+        }, 
+        "1704280078": {
+            "variable_dict": {
+                "ANGLE": {
+                    "navigationDelta": 0.0, 
+                    "pitchDelta": 0.0
+                }, 
+                "FLOAT": {
+                    "conversionFractionX": 0.0, 
+                    "conversionFractionY": 0.0, 
+                    "curNavigationTemp": 0.0, 
+                    "curPitchTemp": 0.0, 
+                    "logicFram": 0.0, 
+                    "moveDeltaX": 0.0, 
+                    "moveDeltaY": 0.0, 
+                    "unitHeight": 0.0, 
+                    "unitWidth": 0.0, 
+                    "\u6c34\u5e73\u7075\u654f\u5ea6": 0.0, 
+                    "\u7ad6\u76f4\u7075\u654f\u5ea6": 0.0
+                }, 
+                "NEW_TIMER": {
+                    "timer": -1
+                }, 
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }, 
+                "PLAYER_GROUP": {}, 
+                "POINT": {
+                    "MousePointTemp": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0, 
+                    "\u5355\u4f4d": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "MousePointTemp": 0, 
+                "conversionFractionX": 0, 
+                "conversionFractionY": 0, 
+                "curNavigationTemp": 0, 
+                "curPitchTemp": 0, 
+                "logicFram": 0, 
+                "moveDeltaX": 0, 
+                "moveDeltaY": 0, 
+                "navigationDelta": 0, 
+                "pitchDelta": 0, 
+                "timer": 0, 
+                "unit": 0, 
+                "unitHeight": 0, 
+                "unitWidth": 0, 
+                "\u5355\u4f4d": 0, 
+                "\u6c34\u5e73\u7075\u654f\u5ea6": 0, 
+                "\u73a9\u5bb6": 0, 
+                "\u7ad6\u76f4\u7075\u654f\u5ea6": 0
+            }
+        }, 
+        "1716711457": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "timer": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "timer": 0
+            }
+        }, 
+        "1929433089": {
+            "variable_dict": {
+                "ANGLE": {
+                    "direction": 0.0
+                }, 
+                "BOOLEAN": {}, 
+                "FLOAT": {
+                    "x": 0.0, 
+                    "y": 0.0
+                }, 
+                "NEW_TIMER": {
+                    "timer": -1
+                }, 
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }, 
+                "POINT": {
+                    "aimPoint": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "UNIT_ENTITY": {
+                    "\u5355\u4f4d": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "aimPoint": 0, 
+                "direction": 0, 
+                "timer": 0, 
+                "x": 0, 
+                "y": 0, 
+                "\u5355\u4f4d": 0, 
+                "\u73a9\u5bb6": 0
+            }
+        }, 
+        "1931247639": {
+            "variable_dict": {
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "PLAYER_GROUP": {}
+            }, 
+            "variable_length_dict": {
+                "player": 0
+            }
+        }, 
+        "1961693213": {
+            "variable_dict": {
+                "MODIFIER_ENTITY": {
+                    "effect": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "effect": 0, 
+                "unit": 0
+            }
+        }
+    }, 
+    "variable_comments": {}, 
+    "variable_dict": {
+        "BOOLEAN": {
+            "isManager": false
+        }, 
+        "DYNAMIC_TRIGGER_INSTANCE": {
+            "DOWN": 0, 
+            "UP": 0
+        }, 
+        "FLOAT": {}, 
+        "INTEGER": {
+            "testLogoNumber": 6
+        }, 
+        "NEW_TIMER": {}, 
+        "PLAYER_GROUP": {
+            "realPlayerGroup": []
+        }, 
+        "POINT": {}, 
+        "TABLE": {
+            "areaTable": null
+        }, 
+        "UNIT_ENTITY": {}, 
+        "UNIT_NAME": {}
+    }, 
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "realPlayerGroup", 
+                "realPlayerGroup"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "isManager", 
+                "isManager"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "testLogoNumber", 
+                "testLogoNumber"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "areaTable", 
+                "areaTable"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "UP", 
+                "UP"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "DOWN", 
+                "DOWN"
+            ]
+        }
+    ], 
+    "variable_length_dict": {
+        "DOWN": 0, 
+        "UP": 0, 
+        "areaTable": 0, 
+        "isManager": 0, 
+        "realPlayerGroup": 0, 
+        "testLogoNumber": 0
+    }
+}

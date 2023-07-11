@@ -1,0 +1,132 @@
+{
+    "camp": {
+        "1": {
+            "camp_name": "$faction 1", 
+            "camp_name_en": "Faction 1", 
+            "camp_name_zh": "\u9635\u8425 1", 
+            "least_num": 0, 
+            "roles": [
+                1
+            ], 
+            "share_vision": true
+        }, 
+        "2": {
+            "camp_name": "$faction 2", 
+            "camp_name_en": "Faction 2", 
+            "camp_name_zh": "\u9635\u8425 2", 
+            "least_num": 0, 
+            "roles": [
+                2
+            ], 
+            "share_vision": true
+        }, 
+        "30": {
+            "camp_name": "$code_camp_referee", 
+            "camp_name_en": "$code_camp_referee", 
+            "camp_name_zh": "$code_camp_referee", 
+            "least_num": 0, 
+            "roles": [], 
+            "share_vision": true
+        }, 
+        "9999": {
+            "camp_name": "$faction 9999", 
+            "camp_name_en": "Neutral", 
+            "camp_name_zh": "\u4e2d\u7acb", 
+            "least_num": 0, 
+            "roles": [
+                31, 
+                32
+            ], 
+            "share_vision": true
+        }
+    }, 
+    "camp_limit": 1, 
+    "role": {
+        "1": {
+            "camp_id": 1, 
+            "role_color": "#FF0000", 
+            "role_name": "$player 1", 
+            "role_name_en": "Player 1", 
+            "role_name_zh": "\u73a9\u5bb6 1", 
+            "role_type": 1
+        }, 
+        "2": {
+            "camp_id": 2, 
+            "role_color": "#FF8000", 
+            "role_name": "$player 2", 
+            "role_name_en": "Player 2", 
+            "role_name_zh": "\u73a9\u5bb6 2", 
+            "role_type": 1
+        }, 
+        "31": {
+            "camp_id": 9999, 
+            "role_color": "#808080", 
+            "role_name": "$player 31", 
+            "role_name_en": "Neutral Hostile", 
+            "role_name_zh": "\u4e2d\u7acb \u654c\u5bf9", 
+            "role_type": 2
+        }, 
+        "32": {
+            "camp_id": 9999, 
+            "role_color": "#808080", 
+            "role_name": "$player 32", 
+            "role_name_en": "Neutral Friendly", 
+            "role_name_zh": "\u4e2d\u7acb \u53cb\u5584", 
+            "role_type": 2
+        }
+    }, 
+    "role_res_types": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "official_res_1", 
+                {
+                    "default": [
+                        0, 
+                        0
+                    ], 
+                    "desc": "gold", 
+                    "icon_id": 100000, 
+                    "is_coin": true, 
+                    "is_editored": true, 
+                    "key": "official_res_1", 
+                    "maximun": [
+                        1000000, 
+                        0
+                    ], 
+                    "minimun": [
+                        0, 
+                        0
+                    ], 
+                    "name": "gold"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "GFg8QPkCEe2uOwD-IaiCSk", 
+                {
+                    "default": [
+                        0, 
+                        0
+                    ], 
+                    "desc": "\u91d1\u5e01", 
+                    "icon_id": 131358, 
+                    "is_coin": false, 
+                    "is_editored": true, 
+                    "key": "GFg8QPkCEe2uOwD-IaiCSk", 
+                    "maximun": [
+                        10000000, 
+                        0
+                    ], 
+                    "minimun": [
+                        0, 
+                        0
+                    ], 
+                    "name": "\u91d1\u5e01"
+                }
+            ]
+        }
+    ]
+}

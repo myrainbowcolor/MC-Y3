@@ -1,0 +1,29 @@
+{
+ "f": [
+  {
+   "__tuple__": true, 
+   "items": [
+    "", 
+    0, 
+    2147483647, 
+    "code_explorer_custom_root_folder_name"
+   ]
+  }
+ ], 
+ "d": {
+  "134223669": {
+   "__tuple__": true, 
+   "items": [
+    2147483647, 
+    0
+   ]
+  }, 
+  "134233424": {
+   "__tuple__": true, 
+   "items": [
+    2147483647, 
+    1
+   ]
+  }
+ }
+}

@@ -1,0 +1,105 @@
+{
+    "bloom": {
+        "bloom_open": false, 
+        "bloom_strength": 0.5
+    }, 
+    "color_grading": {
+        "color_grading_type": 1
+    }, 
+    "fog": {
+        "height_fog": false, 
+        "height_fog_end": 0.0
+    }, 
+    "fog_war": {
+        "fog_war_put_gray_noise_enable": false
+    }, 
+    "post_style": {
+        "post_style_shader_params": {
+            "1": {
+                "DepthScale": 2.0, 
+                "LineColor": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.09019607843137255, 
+                        0.08627450980392157, 
+                        0.08627450980392157
+                    ]
+                }, 
+                "PixelIntensity": 5.0
+            }, 
+            "4": {
+                "DepthScale": 2.5, 
+                "LineColor": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.05, 
+                        0.05, 
+                        0.05
+                    ]
+                }, 
+                "TotalControl": 0.9
+            }
+        }, 
+        "post_style_type": 0
+    }, 
+    "shadow_quality": {
+        "dynamic_shadow_cascades": 2.0, 
+        "dynamic_shadow_distance_movable_light": 80.0, 
+        "enable_ue4_csm": true
+    }, 
+    "sky_box": {
+        "sky_box_choose_list": {
+            "__tuple__": true, 
+            "items": [
+                100000, 
+                100001, 
+                100008
+            ]
+        }, 
+        "sky_box_suncolor_intensity": 30.0, 
+        "sky_box_type": 100000
+    }, 
+    "terrain": {
+        "terrain_version": 2, 
+        "water_materials": [
+            {
+                "color": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.051, 
+                        0.123, 
+                        0.341
+                    ]
+                }, 
+                "custom_color": true, 
+                "flow_direction": 90.0, 
+                "flow_perturbation": 0.5, 
+                "flow_speed": 0.3, 
+                "mat_id": 1, 
+                "name": "\u6c34", 
+                "original": true
+            }, 
+            {
+                "color": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.947, 
+                        0.117, 
+                        0.007
+                    ]
+                }, 
+                "custom_color": true, 
+                "flow_direction": 0.0, 
+                "flow_perturbation": 0.3, 
+                "flow_speed": 0.2, 
+                "mat_id": 2, 
+                "name": "\u5ca9\u6d46", 
+                "original": true
+            }
+        ]
+    }, 
+    "vignetting": {
+        "vignetting_breath_rate": 1.0, 
+        "vignetting_open": false
+    }
+}

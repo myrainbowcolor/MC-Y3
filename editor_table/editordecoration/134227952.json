@@ -1,0 +1,96 @@
+{
+    "_custom_": true, 
+    "_ref_": 134227952, 
+    "attach_models": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "base_color_mod": 1, 
+    "base_tint_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255, 
+            0.5
+        ]
+    }, 
+    "cast_shadow": true, 
+    "collision_box": {
+        "__tuple__": true, 
+        "items": [
+            [
+                -5, 
+                5
+            ], 
+            [
+                -5, 
+                -5
+            ], 
+            [
+                5, 
+                -5
+            ], 
+            [
+                5, 
+                5
+            ]
+        ]
+    }, 
+    "collision_height": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "collision_points": {
+        "__tuple__": true, 
+        "items": [
+            [
+                -5, 
+                -10
+            ], 
+            [
+                6, 
+                11
+            ], 
+            0, 
+            1.0
+        ]
+    }, 
+    "description": 1847357935, 
+    "effect_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "fresnel_color": [
+        255, 
+        0, 
+        0, 
+        1
+    ], 
+    "fresnel_emissive_color_strength": 0, 
+    "fresnel_exp": 1, 
+    "icon": 100000, 
+    "key": 134227952, 
+    "kv": {}, 
+    "material_alpha": 0, 
+    "material_change": 0, 
+    "material_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255
+        ]
+    }, 
+    "material_color_intensity": 0, 
+    "model": 203262, 
+    "model_opacity": 1, 
+    "name": 691932723, 
+    "receive_decal": false, 
+    "scale": 1.0, 
+    "suffix": "", 
+    "uid": "134227952", 
+    "use_base_tint_color": false, 
+    "use_fresnel": false, 
+    "use_physics": false
+}

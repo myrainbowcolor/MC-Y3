@@ -1,0 +1,104 @@
+{
+    "1": 1, 
+    "5": 1, 
+    "6": 0, 
+    "_custom_": true, 
+    "_ref_": 134262953, 
+    "attached_ability": 0, 
+    "attached_agility": 0.0, 
+    "attached_critical_chance": 0.0, 
+    "attached_dodge_rate": 0.0, 
+    "attached_hit_rate": 0.0, 
+    "attached_hp_max": 0.0, 
+    "attached_hp_rec": 0.0, 
+    "attached_intelligence": 0.0, 
+    "attached_passive_abilities": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "attached_pene_mag": 0.0, 
+    "attached_pene_phy": 0.0, 
+    "attached_strength": 0.0, 
+    "auto_use": false, 
+    "base_color_mod": 0, 
+    "base_tint_color": [
+        236, 
+        240, 
+        255, 
+        0.5
+    ], 
+    "body_size": 1.0, 
+    "buy_res_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cd_type": "", 
+    "compose_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cur_charge": 0, 
+    "cur_stack": 1, 
+    "delete_on_discard": false, 
+    "desc": -650036815, 
+    "description": 1828696725, 
+    "disable_overlapping": true, 
+    "discard_enable": false, 
+    "discard_when_dead": false, 
+    "drop_stay_time": 60.0, 
+    "effect_list": [], 
+    "fresnel_color": [
+        255, 
+        0, 
+        0, 
+        1
+    ], 
+    "fresnel_emissive_color_strength": 0, 
+    "fresnel_exp": 1, 
+    "hp_max": 100, 
+    "icon": 132173, 
+    "init_stock": 5, 
+    "item_billboard_type": 0, 
+    "key": 134248953, 
+    "kv": {}, 
+    "level": 1, 
+    "material_alpha": 1, 
+    "material_change": 0, 
+    "material_color": [
+        255, 
+        255, 
+        255
+    ], 
+    "material_color_intensity": 1, 
+    "max_stock": 5, 
+    "maximum_charging": 5, 
+    "maximum_stacking": 99, 
+    "model": 134225306, 
+    "model_opacity": 1.0, 
+    "name": 1854178592, 
+    "precondition_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "refresh_interval": 1, 
+    "sale_enable": false, 
+    "sell_res_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "stack_type": 0, 
+    "start_rft": 1, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "uid": "134248953", 
+    "use_base_tint_color": false, 
+    "use_consume": 1, 
+    "use_fresnel": false
+}

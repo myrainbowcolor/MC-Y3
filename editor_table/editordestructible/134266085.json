@@ -1,0 +1,108 @@
+{
+    "1": 1, 
+    "5": 1, 
+    "6": 0, 
+    "102": 0, 
+    "104": 500, 
+    "107": 0, 
+    "108": 100, 
+    "1001": 2.0, 
+    "_custom_": true, 
+    "_ref_": 134266085, 
+    "alive_height_box_data": "0", 
+    "base_color_mod": 0, 
+    "base_tint_color": [
+        220, 
+        4, 
+        253, 
+        0.5
+    ], 
+    "body_size": 1.49, 
+    "collision_box": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "collision_points_alive": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "collision_points_dead": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "dead_height_box_data": "0", 
+    "desc": 1007012523, 
+    "description": 1007012523, 
+    "destroy_delay": 0.0, 
+    "destroy_on_die": true, 
+    "die_effect_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "die_on_source_run_out": false, 
+    "effect_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "fresnel_color": [
+        255, 
+        0, 
+        0, 
+        1
+    ], 
+    "fresnel_emissive_color_strength": 0, 
+    "fresnel_exp": 1, 
+    "hp_max": 500.0, 
+    "icon": 100000, 
+    "is_ability_target": true, 
+    "is_attacked": false, 
+    "is_collected": false, 
+    "is_selected": false, 
+    "key": 134266085, 
+    "kv": {}, 
+    "material_alpha": 0, 
+    "material_change": 18, 
+    "material_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255
+        ]
+    }, 
+    "material_color_intensity": 0, 
+    "mini_map_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255
+        ]
+    }, 
+    "model": 134255451, 
+    "model_opacity": 1.0, 
+    "name": 1476082243, 
+    "passable": false, 
+    "receive_decal": false, 
+    "show_on_mini_map": false, 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "source_desc": 566196750, 
+    "source_item": 10000, 
+    "source_nums_init": 0, 
+    "source_nums_max": 10000.0, 
+    "source_player_prop": "official_res_1", 
+    "source_refresh_count": 0, 
+    "source_refresh_interval": 5, 
+    "source_type": 0, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "uid": "134266085", 
+    "use_base_tint_color": false, 
+    "use_fresnel": false
+}

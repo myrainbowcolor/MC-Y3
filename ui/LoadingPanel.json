@@ -1,0 +1,192 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "adapter_option": [
+                true, 
+                true, 
+                true, 
+                true, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ], 
+            "children": [], 
+            "event_list": [], 
+            "image": 134230079, 
+            "name": "loading_background", 
+            "open_adapter": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1920.0, 
+                    1080.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "e080b5db-a796-4669-8146-a20b99e99120"
+        }, 
+        {
+            "adapter_option": [
+                false, 
+                true, 
+                true, 
+                false, 
+                1038.0, 
+                30.0, 
+                38.0, 
+                38.0
+            ], 
+            "bg_image": 106409, 
+            "children": [], 
+            "event_list": [], 
+            "image": 106408, 
+            "name": "loading_bar_percent", 
+            "open_adapter": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    36.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    3.3333333333333335
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1844.0, 
+                    12.0
+                ]
+            }, 
+            "type": 5, 
+            "uid": "d499d639-48d1-43a5-b25c-a33920f95488"
+        }, 
+        {
+            "adapter_option": [
+                false, 
+                false, 
+                true, 
+                false, 
+                995.0, 
+                49.0, 
+                184.00006103515625, 
+                1535.9999389648438
+            ], 
+            "children": [], 
+            "event_list": [], 
+            "font": {
+                "__tuple__": true, 
+                "items": [
+                    "", 
+                    36
+                ]
+            }, 
+            "name": "label_percent", 
+            "open_adapter": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    284.00006103515625, 
+                    67.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    14.791669845581055, 
+                    6.203703703703703
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    200.0, 
+                    36.0
+                ]
+            }, 
+            "text": {
+                "__tuple__": true, 
+                "items": [
+                    "50%", 
+                    false
+                ]
+            }, 
+            "type": 3, 
+            "uid": "bc56ae59-3271-4729-beb8-28edcc544484"
+        }, 
+        {
+            "adapter_option": [
+                false, 
+                true, 
+                true, 
+                false, 
+                996.0, 
+                48.0, 
+                44.0, 
+                1736.0
+            ], 
+            "children": [], 
+            "event_list": [], 
+            "font": {
+                "__tuple__": true, 
+                "items": [
+                    "", 
+                    36
+                ]
+            }, 
+            "name": "loading...", 
+            "open_adapter": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    114.0, 
+                    66.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    5.9375, 
+                    6.111111111111111
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    140.0, 
+                    36.0
+                ]
+            }, 
+            "text": {
+                "__tuple__": true, 
+                "items": [
+                    "Loading...", 
+                    false
+                ]
+            }, 
+            "type": 3, 
+            "uid": "dd9f4908-e838-489a-a24a-c39a2c7dba92"
+        }
+    ], 
+    "name": "LoadingPanel", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "aa7ea525-8c73-4585-a6b6-ac706cf0e2f6", 
+    "visible": true, 
+    "zorder": 400
+}

@@ -1,0 +1,30 @@
+[
+ {
+  "__tuple__": true, 
+  "items": [
+   1, 
+   "public"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   2, 
+   "store"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   3, 
+   "playerInfo"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   5, 
+   "shop"
+  ]
+ }
+]

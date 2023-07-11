@@ -1,0 +1,9 @@
+{
+    "Lua.diagnostics.disable": [
+        "undefined-global",
+        "need-check-nil",
+        "undefined-field",
+        "unused-local",
+        "missing-return-value"
+    ]
+}

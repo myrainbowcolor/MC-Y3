@@ -1,0 +1,33 @@
+{
+    "describe": 1203358788, 
+    "editor_res": false, 
+    "key": 203099, 
+    "map_name": "H54role", 
+    "model_id": 506137, 
+    "name": 1581458481, 
+    "offical_tags": {
+        "__tuple__": true, 
+        "items": [
+            "code_Cartoon", 
+            "code_Fantasy", 
+            "code_NPC", 
+            "code_Female", 
+            "code_Minor", 
+            "code_Civilian", 
+            "code_Strong", 
+            "code_Human", 
+            "code_Green"
+        ]
+    }, 
+    "preview_icon": "UP1ModelPreview/203099", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "release_hide": false, 
+    "res_identify": "", 
+    "select_effect_scale": 0.01, 
+    "socket_info": {}, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_203099"
+}
