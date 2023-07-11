@@ -480,9 +480,9 @@ do
 				}
 			end
 			-- 单位所在位置无法放置
-			local length = 300
-			local width = 300
-			local height = 300
+			local length = 305
+			local width = 305
+			local height = 305
 			local cubeModel = Util:creatCubeModel(centerPoint, length, width, height)
 			for _, u in pairs(Unit.instanceArr) do
 				unitPoint = Unit:getUnitCenterPoint(u)
@@ -618,7 +618,9 @@ do
 				cd = dataTable["黑色cube破坏时间（second）"]:float()
 			else
 				cd = 0
-				unit.actor:stop_animation("attack1")
+				if not isTest then
+					unit.actor:stop_animation("attack1")
+				end
 			end
 			speed = SPEED / (cd == 0 and 0.1 or cd)
 		end
@@ -700,7 +702,7 @@ do
 				up.ui:hide(uid, "", player)
 				up.ui:stop_ui_comp_anim(player, animationUid)
 				-- 不破坏
-				if not hitCube or isDestoryOnselfCmapBlackCube or isNotCanDestory then
+				if (not hitCube or isDestoryOnselfCmapBlackCube or isNotCanDestory) and not isTest then
 					t = 0
 				end
 				-- 停止破坏
@@ -833,7 +835,11 @@ do
 							elseif plane.name == "BOTTOM" then
 								unit.collisionType.bottomCollision = true
 								unitAddUerDefineBoolenKv(unit, "bottomCollision", true)
-								unit.jumpInitHeight = Unit:getUnitBottomPoint(unit).z
+								if Unit:getUnitBottomPoint(unit).z > plane.plane.p1.z then
+									unit.actor:kill() -- 卡死击杀
+									player:msg("卡死！")
+								end
+								unit.jumpInitHeight = plane.plane.p1.z - unit.height
 							elseif plane.name == "LEFT" then
 								unit.collisionType.leftCollision = true
 								unitAddUerDefineBoolenKv(unit, "leftCollision", true)
@@ -851,9 +857,10 @@ do
 					end
 					-- 全局重力
 					unit.time = unit.time + logicFram
-					if unit.collisionType.bottomCollision then
+					if unit.collisionType.bottomCollision then -- 顶部完全弹性碰撞
 						unit.vg = -unit.vg
 						unit.time = logicFram
+						unit.jumpInitHeight = Unit:getUnitBottomPoint(unit).z
 					end
 					-- 不受重力
 					if unit.state == "SNEAK" or (isUnitExitBooleanKv(unit.actor, "不受重力") and
@@ -985,7 +992,7 @@ do
 							-- player:msg("卡死")
 							if unit.standCube then
 								local point = unit.standCube.cubeModel.centerPoint
-								unit.actor:set_height(point.z + Cube:getCubeModelHeight() / 2)
+								unit.actor:set_height(point.z + Cube:getCubeModelHeight() / 2 + buffer)
 								unit.actor:set_point(up.point(point.x, point.y, 0))
 							end
 							-- unit.actor:kill()
@@ -1078,9 +1085,9 @@ do
 
 	-- 初始化场景
 	function initScene()
-		local length = 300
-		local width = 300
-		local height = 300
+		local length = 305
+		local width = 305
+		local height = 305
 		local player = up.player(1) -- 默认使用玩家一的存档
 		if player._base then
 			local storeTableTemp = player:get_save_data_table_value(1)
@@ -1167,6 +1174,13 @@ do
 	--[[
 		事件
 	---]]
+
+	-- up.game:event("Game-Init", function()
+	-- 	up.wait(1, function()
+	-- 		local unitPoint = Unit:getUnitCenterPoint(Unit:getUnit(2))
+	-- 		Cube:creatCube(unitPoint, 305, 305, 305, 134273901)
+	-- 	end)
+	-- end)
 
 	up.game:event("Game-Init", gameInitBegin)
 

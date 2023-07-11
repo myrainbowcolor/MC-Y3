@@ -1,5 +1,8 @@
 {
-    "column_width": {}, 
+    "column_width": {
+        "2": 83, 
+        "3": 274
+    }, 
     "table_data": {
         "data": [
             [
@@ -17,14 +20,14 @@
             [
                 "unitHeight", 
                 "float", 
-                "580", 
-                null
+                "575", 
+                "\u9700\u8981\u5c0f\u4e8e2\u4e2acube\u7684height"
             ], 
             [
                 "unitWidth", 
                 "float", 
-                "200", 
-                null
+                "250", 
+                "\u9700\u8981\u9700\u8981\u5c0f\u4e8ecubewdith"
             ], 
             [
                 "campOneSpawn", 
