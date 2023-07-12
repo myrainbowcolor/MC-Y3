@@ -1175,20 +1175,67 @@ do
 		事件
 	---]]
 
-	-- up.game:event("Game-Init", function()
-	-- 	up.wait(1, function()
-	-- 		local unitPoint = Unit:getUnitCenterPoint(Unit:getUnit(2))
-	-- 		Cube:creatCube(unitPoint, 305, 305, 305, 134273901)
-	-- 	end)
-	-- end)
+	up.game:event("Game-Init", function()
+		-- 示例用法
+		local noise = require 'noise'
+		-- 初始化地形大小和高度范围
+		local mapSize = 50
+		local maxHeight = 295 * 8
 
-	up.game:event("Game-Init", gameInitBegin)
+		-- 创建一个地形矩阵
+		local map = {}
+		for x = 1, mapSize do
+			map[x] = {}
+			for y = 1, mapSize do
+				map[x][y] = 0
+			end
+		end
 
-	up.game:event("Mouse-RightDown", destroyBlock)
+		-- 生成地形数据
+		for x = 1, mapSize do
+			for y = 1, mapSize do
+				local frequency = 0.01 -- 频率
+				local amplitude = 0.55 -- 振幅
+				local persistence = 0.95 -- 持续度
+				local octaves = 5 -- 阶数
 
-	up.game:event("Mouse-LeftDown", buildBlock)
+				local height = 0
+				for i = 1, octaves do
+					local octaveX = x * frequency
+					local octaveY = y * frequency
+					height = height + noise(octaveX, octaveY, "12345") * amplitude
 
-	up.game:event("Keyboard-Down", unitJump)
+					frequency = frequency * 2
+					amplitude = amplitude * persistence
+				end
+				height = height * maxHeight
+				map[x][y] = height
+			end
+		end
+
+		-- 绘制地形
+		for x = 1, mapSize do
+			for y = 1, mapSize do
+				local h = math.floor(map[x][y]) // 295 * 295
+				local key = nil
+				-- 分层染色
+				if h > 0 * 295 then
+					key = 134239615 -- 红色
+				elseif h <= 0 * 295 then
+					key = 134266735 -- 蓝色
+				end
+				Cube:creatCube(Util:creatVector(x * 295, y * 295, h), 295, 295, 295, key) -- 此处更换为自己对应的生成代码
+			end
+		end
+	end)
+
+	-- up.game:event("Game-Init", gameInitBegin)
+
+	-- up.game:event("Mouse-RightDown", destroyBlock)
+
+	-- up.game:event("Mouse-LeftDown", buildBlock)
+
+	-- up.game:event("Keyboard-Down", unitJump)
 
 	-- game_api.get_input_field_content(up.player(1)._base, "1100e6de-f363-4249-9048-d6e6c65de896")
 	-- local t = 0
