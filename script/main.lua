@@ -409,6 +409,9 @@ do
 	-- 建造方块
 	function buildBlock(trigger, ...)
 		local player = ...
+		if player:is_key_pressed("LALT") then
+			return
+		end
 		local chooseItemId = getPlayerCurUseItemSlotId(player, "chooseItemId")
 		local cubeId = {
 			[2] = 134273901, -- 灰
@@ -835,10 +838,6 @@ do
 							elseif plane.name == "BOTTOM" then
 								unit.collisionType.bottomCollision = true
 								unitAddUerDefineBoolenKv(unit, "bottomCollision", true)
-								if Unit:getUnitBottomPoint(unit).z > plane.plane.p1.z then
-									unit.actor:kill() -- 卡死击杀
-									player:msg("卡死！")
-								end
 								unit.jumpInitHeight = plane.plane.p1.z - unit.height
 							elseif plane.name == "LEFT" then
 								unit.collisionType.leftCollision = true
@@ -873,17 +872,18 @@ do
 					local h = caculatCurUnitWorldHeightByGravity(unit, unit.time)
 					-- player:msg(h)
 					-- 避免量子隧穿,即物理穿透问题,但消耗性能
+					local hitCube, intersectionPoint, hitPlaneName
 					if (isPressW or isPressS or isPressA or isPressD or unit.state == "SKY") and
 						GameAPI.get_table("public")["ISENABLECONTINUECOLLISION"] then -- 优化
 						local ray = Util:creatRay(Unit:getUnitBottomPoint(unit), Util:creatVector(0, 0, -10))
-						local hitCube, intersectionPoint, hitPlaneName = Cube:getRayHitCubeInfo(ray, unit.height * 6) -- 增加连续判定范围
+						hitCube, intersectionPoint, hitPlaneName = Cube:getRayHitCubeInfo(ray, unit.height * 6) -- 增加连续判定范围
 					end
 					local minH = hitCube and (hitCube.cubeModel.p1.z + buffer) or h
 					if minH > h then
 						unit.collisionType.topCollision = true
 						h = minH
 					end
-					local minCube = Cube:isCollision({ Unit:getUnitBottomPoint(unit) }, unit.height * 2.5) -- 弥补缝隙穿透问题
+					local minCube = Cube:isCollision({ Unit:getUnitBottomPoint(unit), Unit:getUnitCenterPoint(unit) }, unit.height * 2.5) -- 弥补缝隙穿透问题
 					if minCube then
 						h = minCube.cubeModel.p1.z + buffer
 					end
@@ -969,35 +969,6 @@ do
 					-- 物理效果
 					if collisionCubeArrAndPlaneArr then
 						-- player:msg("collision")
-						-- 处理卡死
-						local count = 0
-						for _, v in pairs(unit.collisionType) do
-							if v then
-								count = count + 1
-							end
-						end
-						if count >= 5 then
-							-- player:msg("卡死")
-							-- unit.actor:kill()
-							if unit.standCube then
-								local point = unit.standCube.cubeModel.centerPoint
-								unit.actor:set_height(point.z + Cube:getCubeModelHeight() / 2)
-								unit.actor:set_point(up.point(point.x, point.y, 0))
-							end
-							break
-						end
-						if unit.collisionType.topCollision and unit.collisionType.bottomCollision or
-							unit.collisionType.leftCollision and unit.collisionType.rightCollision or
-							unit.collisionType.frontCollision and unit.collisionType.backCollision then
-							-- player:msg("卡死")
-							if unit.standCube then
-								local point = unit.standCube.cubeModel.centerPoint
-								unit.actor:set_height(point.z + Cube:getCubeModelHeight() / 2 + buffer)
-								unit.actor:set_point(up.point(point.x, point.y, 0))
-							end
-							-- unit.actor:kill()
-							break
-						end
 						-- 物理碰撞
 						--- @param collisionCube Cube
 						for k, collisionCube in pairs(collisionCubeArrAndPlaneArr[1]) do
@@ -1175,67 +1146,67 @@ do
 		事件
 	---]]
 
-	up.game:event("Game-Init", function()
-		-- 示例用法
-		local noise = require 'noise'
-		-- 初始化地形大小和高度范围
-		local mapSize = 50
-		local maxHeight = 295 * 8
+	-- up.game:event("Game-Init", function()
+	-- 	-- 示例用法
+	-- 	local noise = require 'noise'
+	-- 	-- 初始化地形大小和高度范围
+	-- 	local mapSize = 50
+	-- 	local maxHeight = 295 * 8
 
-		-- 创建一个地形矩阵
-		local map = {}
-		for x = 1, mapSize do
-			map[x] = {}
-			for y = 1, mapSize do
-				map[x][y] = 0
-			end
-		end
+	-- 	-- 创建一个地形矩阵
+	-- 	local map = {}
+	-- 	for x = 1, mapSize do
+	-- 		map[x] = {}
+	-- 		for y = 1, mapSize do
+	-- 			map[x][y] = 0
+	-- 		end
+	-- 	end
 
-		-- 生成地形数据
-		for x = 1, mapSize do
-			for y = 1, mapSize do
-				local frequency = 0.01 -- 频率
-				local amplitude = 0.55 -- 振幅
-				local persistence = 0.95 -- 持续度
-				local octaves = 5 -- 阶数
+	-- 	-- 生成地形数据
+	-- 	for x = 1, mapSize do
+	-- 		for y = 1, mapSize do
+	-- 			local frequency = 0.01 -- 频率
+	-- 			local amplitude = 0.55 -- 振幅
+	-- 			local persistence = 0.95 -- 持续度
+	-- 			local octaves = 5 -- 阶数
 
-				local height = 0
-				for i = 1, octaves do
-					local octaveX = x * frequency
-					local octaveY = y * frequency
-					height = height + noise(octaveX, octaveY, "12345") * amplitude
+	-- 			local height = 0
+	-- 			for i = 1, octaves do
+	-- 				local octaveX = x * frequency
+	-- 				local octaveY = y * frequency
+	-- 				height = height + noise(octaveX, octaveY, "12345") * amplitude
 
-					frequency = frequency * 2
-					amplitude = amplitude * persistence
-				end
-				height = height * maxHeight
-				map[x][y] = height
-			end
-		end
+	-- 				frequency = frequency * 2
+	-- 				amplitude = amplitude * persistence
+	-- 			end
+	-- 			height = height * maxHeight
+	-- 			map[x][y] = height
+	-- 		end
+	-- 	end
 
-		-- 绘制地形
-		for x = 1, mapSize do
-			for y = 1, mapSize do
-				local h = math.floor(map[x][y]) // 295 * 295
-				local key = nil
-				-- 分层染色
-				if h > 0 * 295 then
-					key = 134239615 -- 红色
-				elseif h <= 0 * 295 then
-					key = 134266735 -- 蓝色
-				end
-				Cube:creatCube(Util:creatVector(x * 295, y * 295, h), 295, 295, 295, key) -- 此处更换为自己对应的生成代码
-			end
-		end
-	end)
+	-- 	-- 绘制地形
+	-- 	for x = 1, mapSize do
+	-- 		for y = 1, mapSize do
+	-- 			local h = math.floor(map[x][y]) // 295 * 295
+	-- 			local key = nil
+	-- 			-- 分层染色
+	-- 			if h > 0 * 295 then
+	-- 				key = 134239615 -- 红色
+	-- 			elseif h <= 0 * 295 then
+	-- 				key = 134266735 -- 蓝色
+	-- 			end
+	-- 			Cube:creatCube(Util:creatVector(x * 295, y * 295, h), 295, 295, 295, key) -- 此处更换为自己对应的生成代码
+	-- 		end
+	-- 	end
+	-- end)
 
-	-- up.game:event("Game-Init", gameInitBegin)
+	up.game:event("Game-Init", gameInitBegin)
 
-	-- up.game:event("Mouse-RightDown", destroyBlock)
+	up.game:event("Mouse-RightDown", destroyBlock)
 
-	-- up.game:event("Mouse-LeftDown", buildBlock)
+	up.game:event("Mouse-LeftDown", buildBlock)
 
-	-- up.game:event("Keyboard-Down", unitJump)
+	up.game:event("Keyboard-Down", unitJump)
 
 	-- game_api.get_input_field_content(up.player(1)._base, "1100e6de-f363-4249-9048-d6e6c65de896")
 	-- local t = 0

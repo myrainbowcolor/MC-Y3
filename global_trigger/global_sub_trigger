@@ -1811,7 +1811,7 @@
                                                 ], 
                                                 "bp": false, 
                                                 "element_id": 345325581000104, 
-                                                "enable": true
+                                                "enable": false
                                             }, 
                                             {
                                                 "action_type": "ADD_STATE", 
@@ -1837,7 +1837,7 @@
                                                 ], 
                                                 "bp": false, 
                                                 "element_id": 345325581000005, 
-                                                "enable": true
+                                                "enable": false
                                             }, 
                                             {
                                                 "action_type": "SET_ENTITY_KV", 
@@ -6711,6 +6711,41 @@
                 "bp": false, 
                 "element_id": 370577438000002, 
                 "enable": true
+            }, 
+            {
+                "action_type": "PLAY_SOUND_FOR_PLAYER", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [], 
+                        "sub_type": "TRIGGER_PLAYER"
+                    }, 
+                    {
+                        "arg_type": 100084, 
+                        "args_list": [
+                            134247235
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100001, 
+                        "args_list": [
+                            false
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 370577438000005, 
+                "enable": true, 
+                "op_arg": [
+                    null, 
+                    null
+                ], 
+                "op_arg_enable": [
+                    false, 
+                    false
+                ]
             }
         ], 
         "call_enabled": true, 
@@ -12526,6 +12561,41 @@
                 "bp": false, 
                 "element_id": 907448351000002, 
                 "enable": true
+            }, 
+            {
+                "action_type": "PLAY_SOUND_FOR_PLAYER", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [], 
+                        "sub_type": "TRIGGER_PLAYER"
+                    }, 
+                    {
+                        "arg_type": 100084, 
+                        "args_list": [
+                            134241489
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100001, 
+                        "args_list": [
+                            false
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 370577438000005, 
+                "enable": true, 
+                "op_arg": [
+                    null, 
+                    null
+                ], 
+                "op_arg_enable": [
+                    false, 
+                    false
+                ]
             }
         ], 
         "call_enabled": true, 

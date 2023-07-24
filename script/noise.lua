@@ -28,8 +28,8 @@ return function(x, y, seed)
         return t * t * t * (t * (t * 6 - 15) + 10)
     end
 
-    local function lerp(t, a, b)
-        return a + t * (b - a)
+    local function lerp(from, to, time)
+        return from + (to - from) * (time < 0 and 0 or time > 1 and 1 or time)
     end
 
     local function grad(hash, x, y)

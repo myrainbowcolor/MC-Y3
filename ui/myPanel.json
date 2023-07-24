@@ -4338,7 +4338,6 @@
                                             1.45
                                         ]
                                     }, 
-                                    "short_cut": 3, 
                                     "slot_index": 1, 
                                     "slot_type": 1, 
                                     "type": 20, 
@@ -6536,6 +6535,284 @@
             }, 
             "type": 7, 
             "uid": "c7827ad6-0334-4bc7-a9ea-f19ad46cc53e"
+        }, 
+        {
+            "adapter_option": [
+                true, 
+                true, 
+                true, 
+                true, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ], 
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [
+                        {
+                            "action_list": [
+                                {
+                                    "anim_duration": 1.0, 
+                                    "anim_id": null, 
+                                    "anim_type": 0, 
+                                    "comp": "33bb8d18-60cd-4690-96fa-7b0e241b7ef3", 
+                                    "ease_type": 0, 
+                                    "name": "Show_1", 
+                                    "open_timeline": true, 
+                                    "type": 2
+                                }, 
+                                {
+                                    "anim_duration": 1.0, 
+                                    "anim_id": null, 
+                                    "anim_type": 0, 
+                                    "comp": "28ae253e-5ae9-4b7e-bda3-d7a4f7bf1bb5", 
+                                    "ease_type": 0, 
+                                    "name": "Show_2", 
+                                    "open_timeline": true, 
+                                    "type": 2
+                                }, 
+                                {
+                                    "anim_duration": 1.0, 
+                                    "anim_id": null, 
+                                    "anim_type": 0, 
+                                    "comp": "88e46196-4572-4bce-8e9f-1a0051b33a39", 
+                                    "ease_type": 0, 
+                                    "name": "Hide_2", 
+                                    "open_timeline": true, 
+                                    "type": 3
+                                }
+                            ], 
+                            "enabled": true, 
+                            "name": "\u6309\u952e\u8bf4\u660e", 
+                            "sound_id": null, 
+                            "type": 2
+                        }
+                    ], 
+                    "image": 131120, 
+                    "name": "\u6309\u952e\u8bf4\u660e-\u663e\u793a", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            1619.0, 
+                            1015.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            84.32291666666667, 
+                            93.98148148148148
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            80.0, 
+                            80.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "88e46196-4572-4bce-8e9f-1a0051b33a39"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [
+                        {
+                            "action_list": [
+                                {
+                                    "anim_duration": 1.0, 
+                                    "anim_id": null, 
+                                    "anim_type": 0, 
+                                    "comp": "33bb8d18-60cd-4690-96fa-7b0e241b7ef3", 
+                                    "ease_type": 0, 
+                                    "name": "Hide_1", 
+                                    "open_timeline": true, 
+                                    "type": 3
+                                }, 
+                                {
+                                    "anim_duration": 1.0, 
+                                    "anim_id": null, 
+                                    "anim_type": 0, 
+                                    "comp": "28ae253e-5ae9-4b7e-bda3-d7a4f7bf1bb5", 
+                                    "ease_type": 0, 
+                                    "name": "Hide_3", 
+                                    "open_timeline": true, 
+                                    "type": 3
+                                }, 
+                                {
+                                    "anim_duration": 1.0, 
+                                    "anim_id": null, 
+                                    "anim_type": 0, 
+                                    "comp": "88e46196-4572-4bce-8e9f-1a0051b33a39", 
+                                    "ease_type": 0, 
+                                    "name": "Show_3", 
+                                    "open_timeline": true, 
+                                    "type": 2
+                                }
+                            ], 
+                            "enabled": true, 
+                            "name": "\u6309\u952e\u8bf4\u660e", 
+                            "sound_id": null, 
+                            "type": 2
+                        }
+                    ], 
+                    "image": 131120, 
+                    "name": "\u6309\u952e\u8bf4\u660e-\u9690\u85cf", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            1619.0, 
+                            1015.0000610351562
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            84.32291666666667, 
+                            93.98148713288484
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            80.0, 
+                            80.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "28ae253e-5ae9-4b7e-bda3-d7a4f7bf1bb5", 
+                    "visible": false
+                }, 
+                {
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "label_2", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    398.5, 
+                                    227.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    41.33817427385892, 
+                                    37.70764119601329
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    527.0, 
+                                    310.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "WADS\u79fb\u52a8\n\u9f20\u6807\u79fb\u52a8\u955c\u5934\nALT\u547c\u51fa\u9f20\u6807\n\u7a7a\u683c\u8df3\u8dc3\nSHIFT\u52a0\u901f\u8dd1\n\u9f20\u6807\u5de6\u952e\u653b\u51fb\u548c\u653e\u7f6e\u65b9\u5757\uff0c\u53f3\u952e\u7834\u574f\u65b9\u5757\n\u6309\u4f4fCTRL\u907f\u514d\u4e3b\u52a8\u6389\u4e0b\u60ac\u5d16", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "689096fa-5ad1-4684-b162-5e8585dd6e45"
+                        }, 
+                        {
+                            "alignment": {
+                                "__tuple__": true, 
+                                "items": [
+                                    4, 
+                                    8
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "label_3", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    808.0, 
+                                    227.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    83.81742738589212, 
+                                    37.70764119601329
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    527.0, 
+                                    310.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "\u7834\u574f\u654c\u4eba\u73a9\u5bb6\u6240\u6709\u7ea2\u8272\u65b9\u5757\u5373\u53ef\u83b7\u5f97\u80dc\u5229\uff01", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "2ea026f9-c84a-4229-a746-6f852e9bb044"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "image": 999, 
+                    "name": "\u80cc\u666f", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            960.0, 
+                            614.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            56.851851851851855
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            964.0, 
+                            602.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "33bb8d18-60cd-4690-96fa-7b0e241b7ef3", 
+                    "visible": false
+                }
+            ], 
+            "event_list": [], 
+            "name": "\u64cd\u4f5c\u8bf4\u660e", 
+            "open_adapter": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1920.0, 
+                    1080.0
+                ]
+            }, 
+            "type": 7, 
+            "uid": "ec4e7d28-ed6a-4208-b4b5-2a7ec1271824"
         }
     ], 
     "name": "myPanel", 
